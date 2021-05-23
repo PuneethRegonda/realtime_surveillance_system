@@ -1,0 +1,31 @@
+{
+  "name": "facemap_backend",
+  "version": "1.0.0",
+  "description": "this is responsible for handling users and services like web_app using mostly websockets",
+  "main": "facemap.js",
+  "scripts": {
+    "start": "node facemap.js",
+    "test": "facemap start",
+    "dev": "npx nodemon facemap.js"
+  },
+  "keywords": [
+    "nodeapp"
+  ],
+  "author": "Puneeth Regonda",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@sendgrid/mail": "^7.4.4",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "2.0.5"
+  }
+}
